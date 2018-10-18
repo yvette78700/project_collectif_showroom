@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projet Showroom</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 h-100">
+        <header>
+            <div class="row d-flex justify-content-between">
+                <div class="logo">
+                    <a href="../index.html"><i class="fa fa-diamond"></i><span>Projet showroom</span></a>
+                </div>
+                <div class="twitter">
+
+                    <button type="button" class="twitter_button text-primary" data-toggle="modal" data-target="#modal">
+                        <i class="fa fa-twitter"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Twitter Showroom</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <a class="twitter-timeline" href="https://twitter.com/PrintInProgres?ref_src=twsrc%5Etfw">Tweets
+                                by PrintInProgres</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-primary bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="gravo.html">GRAVOTECH</a>
+                        <a class="nav-item nav-link" href="ux.html">UX DESIGN</a>
+                        <a class="nav-item nav-link" href="show.html">SHOWROOM</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="jumbotron rounded-0 mb-0">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body info">
+                                <img src="../img/gravotech_logo.png" width="100%" alt="Gravotech">
+                                <h5 class="">Contact</h5>
+                                <p class="">E-mail : info@fr.gravotech.com</p>
+                                <p>Téléphone : 04 78 55 85 50</p>
+                                <p>466 rue des Mercières</p>
+                                <p>69140 Rillieux-la-Pape, France</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h4>Présentation</h4>
+                        <p class="lead text-justify">
+                            Gravotech est leader dans la conception, la fabrication et la distribution de solutions
+                            innovantes pour le marquage, la gravure et la découpe.
+                            Mais Gravotech, c'est bien plus que cela : c'est une présence dans plus de 100 pays, un
+                            pôle de recherche et d'innovation à la point de la technologie dans les domaines logiciel,
+                            laser et mécatronique, un service performant pour accompagner ses clients au quotidien, des
+                            certifications Qualité ISO 9001 sur ses principaux sites de production.
+                        </p>
+
+                        <h4>Equipements et Accessoires de gravure</h4>
+                        <div class="row liens">
+                            <div class="col-6 p-0" onclick="window.open('https://www.gravotech.fr/produits-et-services/equipements-et-accessoires-de-gravure/gravure-marquage-et-decoupe-laser', '_blank');">
+                                <img src="https://static.gravotech.com/var/gravotech/storage/images/gravotech/_international/produits-et-services/equipements-et-accessoires-de-gravure/gravure-marquage-et-decoupe-laser/127864-35-int-US/gravure-marquage-et-decoupe-laser_master_page_list.jpg"
+                                    width="100%" alt="laser">
+                            </div>
+                            <div class="col-6 p-0" onclick="window.open('https://www.gravotech.fr/produits-et-services/equipements-et-accessoires-de-gravure/marquage-par-micro-percussion','_blank');">
+                                <img src="https://static.gravotech.com/var/gravotech/storage/images/gravotech/_international/produits-et-services/equipements-et-accessoires-de-gravure/marquage-par-micro-percussion/127882-111-int-US/marquage-par-micro-percussion_master_page_list.jpg"
+                                    width="100%" alt="micro">
+                            </div>
+                            <div class="col-6 p-0" onclick="window.open('https://www.gravotech.fr/produits-et-services/equipements-et-accessoires-de-gravure/marquage-par-rayage', '_blank');">
+                                <img src="https://static.gravotech.com/var/gravotech/storage/images/gravotech/_international/produits-et-services/equipements-et-accessoires-de-gravure/marquage-par-rayage/127918-33-int-US/marquage-par-rayage_master_page_list.jpg"
+                                    width="100%" alt="rayage">
+                            </div>
+
+                            <div class="col-6 p-0" onclick="window.open('https://www.gravotech.fr/produits-et-services/equipements-et-accessoires-de-gravure/gravure-mecanique','_blank');">
+                                <img src="https://static.gravotech.com/var/gravotech/storage/images/gravotech/_international/produits-et-services/equipements-et-accessoires-de-gravure/gravure-mecanique/127900-3-int-US/gravure-mecanique_master_page_list.jpg"
+                                    width="100%" alt="gravure">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <a class="twitter-timeline" data-height="1000" href="https://twitter.com/GravotechGroup?ref_src=twsrc%5Etfw">Tweets
+                            by GravotechGroup</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <footer class="mt-0">
+        <ul>
+            <p>À propos</p>
+            <li><a href="https://printinprogress.fr/evenement/">Site de l'evenement</a></li>
+            <li><a href="https://www.gravotech.fr/">Site Gravotech</a></li>
+            <li><a href="notreteam.html">Notre Team</a></li>
+        </ul>
+        <ul class="social">
+            <p>Réseaux sociaux</p>
+            <li><a href="https://www.facebook.com/PrintinProgress"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=iuMmBrWBTYk&list=PLDLdi4NOOm6EwcAB9-b0G2L4m7hl9KKFZ"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com/PrintInProgres"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

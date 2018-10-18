@@ -1,0 +1,174 @@
+
+/* 
+    couleurs:
+
+
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.308));
+    width:100%;
+    overflow-x: hidden;
+}
+.container-fluid, section {
+    height: 100% !important;
+    width: 100%;
+
+}
+header {
+    height: 30%;
+    width:100%;
+    text-transform: uppercase;
+}
+
+nav {
+    font-size: 1rem;
+    font-weight: bolder; 
+    background:transparent !important;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover{
+    cursor: pointer;
+    background:slateblue;
+    color:#fff;
+    transition: .4s;
+}
+
+.navbar {
+    background:transparent !important;
+}
+
+.navbar-nav {
+    margin:auto;
+}
+
+.logo {
+    display: inline-block;
+    opacity: .9;
+    margin:50px;
+    padding:10px;
+    border-radius: 3px;
+    
+}
+
+.logo:hover {
+    transition: .5s;
+}
+
+.logo i {
+    font-size: 6rem;
+    color:#fff;
+}
+
+.logo a {
+    color:#fff;
+    text-decoration: none !important;
+    
+}
+
+.logo span {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.twitter {
+    margin:50px;
+    color:dodgerblue;
+    text-shadow: 0 0 3px gray;
+}
+
+.twitter i {
+    padding:10px;
+    font-size: 3rem
+}
+
+.twitter_button {
+    background:transparent;
+    border:none;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+footer {
+    margin-top:2rem;
+    background-color: #555!important;
+    color: #fff;
+    height:25vh;
+    width: 100%;
+    padding:0 5rem 0;
+}
+
+footer ul {
+    float: left;
+    margin-top:1rem;
+    font-size: 1.5rem;
+}
+
+footer ul p {
+    font-weight: bolder;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.social {
+    float: right;
+    
+}
+
+.social p {
+    text-align: center;
+}
+
+.social li {
+    float: right;
+    margin: 0 30px;
+    font-size: 1.5rem;
+}
+
+footer ul li a {
+    text-decoration: none !important;
+    color:#fff;
+    
+}
+
+.team, .team div {
+    background:transparent;
+    color: #FFF;
+}
+
+.info {
+    font-size: 21px;
+}
+
+h5, h4 {
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.info p {
+    margin-bottom:0;
+    
+}
+.liens:hover {
+    cursor: pointer;
+}
+
+.prof img{
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+}
